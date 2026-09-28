@@ -281,9 +281,8 @@ Média das métricas por classe: **macro**.
 | KNN (k = 5) | 0.9652 | 0.9656 | 0.9636 | 0.9644 |
 | Centroide mais próximo | 0.8338 | 0.8485 | 0.8306 | 0.8290 |
 
-- **Modelo escolhido (maior F1 macro):** _______
-- **Classes mais confundidas:** _______ previstas como _______ (número de casos: ___)
-- **Quantidade de exemplos por classe:** Solar ___ · Eólica ___ · Hidráulica ___
+- **Modelo escolhido (maior F1 macro):** ___Knn____
+- **Classes mais confundidas:** ___Casos da classe solar____ previstas como ___eólica____ (número de casos: _9__)
 
 Matrizes de confusão: veja o notebook (célula `#5.`) ou a pasta `figuras/`.
 
@@ -291,14 +290,14 @@ Matrizes de confusão: veja o notebook (célula `#5.`) ou a pasta `figuras/`.
 
 | Modelo | MAE (W/m²) | MSE ((W/m²)²) | R² |
 |---|---|---|---|
-| Regressão Linear |  |  |  |
-| Regressão Polinomial (grau 2) |  |  |  |
-| KNN Regressor (k = 5) |  |  |  |
+| Regressão Linear | 145.2049 | 30034.2011 | 0.3598 |
+| Regressão Polinomial (grau 2) | 84.4355 | 10213.7385 | 0.7823 |
+| KNN Regressor (k = 5) | 68.2706 | 7607.9614 | 0.8378 |
 
-- **Melhor modelo (maior R²):** _______
-- **Radiação média da amostra (W/m²):** _______
-- **Horas com maior erro:** _______
-- **Entrada com maior peso na regressão linear:** _______
+- **Melhor modelo (maior R²):** ___KNN____
+- **Radiação média da amostra (W/m²):** ___15951.967____
+- **Horas com maior erro:** ___12____
+- **Entrada com maior peso na regressão linear:** ___Temperatura____
 
 Gráfico real × previsto: veja o notebook (célula `#11.`) ou a pasta `figuras/`.
 
