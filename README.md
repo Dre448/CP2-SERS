@@ -277,9 +277,9 @@ Média das métricas por classe: **macro**.
 
 | Modelo | Accuracy | Precision (macro) | Recall (macro) | F1 (macro) |
 |---|---|---|---|---|
-| Regressão Logística |  |  |  |  |
-| KNN (k = 5) |  |  |  |  |
-| Centroide mais próximo |  |  |  |  |
+| Regressão Logística | 0.8338 | 0.8502 | 0.8295 | 0.8286 |
+| KNN (k = 5) | 0.9652 | 0.9656 | 0.9636 | 0.9644 |
+| Centroide mais próximo | 0.8338 | 0.8485 | 0.8306 | 0.8290 |
 
 - **Modelo escolhido (maior F1 macro):** _______
 - **Classes mais confundidas:** _______ previstas como _______ (número de casos: ___)
